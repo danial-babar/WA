@@ -4,7 +4,7 @@
  * @returns {object|null}
  */
 function formatCampaign(c) {
-  if (!c) return null;
+  if (!c) return null; 
   const total = Number(c.totalContacts) || 0;
   const sent = Number(c.sentCount) || 0;
 
