@@ -1,0 +1,13 @@
+node_modules
+.env
+frontend/node_modules
+dist
+build
+dev.db
+*.log
+progress.json
+conversation-state.json
+test-conversation-state.json
+
+logs/app.log.txt
+logs/*.log.txt
